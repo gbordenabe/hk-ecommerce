@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "./hk-ecommerce/static/css/main.e4a55a15.chunk.css",
+    "main.js": "./hk-ecommerce/static/js/main.83bc85ad.chunk.js",
+    "main.js.map": "./hk-ecommerce/static/js/main.83bc85ad.chunk.js.map",
+    "runtime-main.js": "./hk-ecommerce/static/js/runtime-main.9c7686ea.js",
+    "runtime-main.js.map": "./hk-ecommerce/static/js/runtime-main.9c7686ea.js.map",
+    "static/js/2.f2c35e88.chunk.js": "./hk-ecommerce/static/js/2.f2c35e88.chunk.js",
+    "static/js/2.f2c35e88.chunk.js.map": "./hk-ecommerce/static/js/2.f2c35e88.chunk.js.map",
+    "static/js/3.6370e292.chunk.js": "./hk-ecommerce/static/js/3.6370e292.chunk.js",
+    "static/js/3.6370e292.chunk.js.map": "./hk-ecommerce/static/js/3.6370e292.chunk.js.map",
+    "index.html": "./hk-ecommerce/index.html",
+    "static/css/main.e4a55a15.chunk.css.map": "./hk-ecommerce/static/css/main.e4a55a15.chunk.css.map",
+    "static/js/2.f2c35e88.chunk.js.LICENSE.txt": "./hk-ecommerce/static/js/2.f2c35e88.chunk.js.LICENSE.txt",
+    "static/media/HollowKnight_logo.f24adc30.webp": "./hk-ecommerce/static/media/HollowKnight_logo.f24adc30.webp"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9c7686ea.js",
+    "static/js/2.f2c35e88.chunk.js",
+    "static/css/main.e4a55a15.chunk.css",
+    "static/js/main.83bc85ad.chunk.js"
+  ]
+}
