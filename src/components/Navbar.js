@@ -70,7 +70,7 @@ export default function Navbar() {
     <div className={classes.root}>
       <AppBar position="fixed" className={classes.appBar}>
         <Toolbar>
-          <Link to="/hk-ecommerce">
+          <Link to="/">
             <IconButton
               edge="start"
               className={classes.menuButton}

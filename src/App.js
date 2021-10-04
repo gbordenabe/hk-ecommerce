@@ -42,7 +42,7 @@ function App() {
           <Route path="/checkout-page">
             <CheckoutPage />
           </Route>
-          <Route path="/hk-ecommerce">
+          <Route path="/">
             <Products />
           </Route>
         </Switch>
