@@ -25,11 +25,21 @@ const useStyles = makeStyles((theme) => ({
     backgroundColor: "whitesmoke",
     boxShadow: "none",
   },
+  profile: {
+    [theme.breakpoints.down("xs")]: {
+      display: "none",
+    },
+  },
   grow: {
     flexGrow: 1,
   },
   button: {
     marginLeft: theme.spacing(2),
+  },
+  singinbutton: {
+    [theme.breakpoints.down("xs")]: {
+      display: "none",
+    },
   },
   image: {
     marginRight: "10px",
@@ -81,12 +91,21 @@ export default function Navbar() {
             </IconButton>
           </Link>
           <div className={classes.grow} />
-          <Typography variant="h6" color="textPrimary" component="p">
+          <Typography
+            variant="h6"
+            color="textPrimary"
+            component="p"
+            className={classes.profile}
+          >
             Hello {user ? user.email : "Guest"}
           </Typography>
           <div className={classes.button}>
             <Link to="/singin" style={{ textDecoration: "none" }}>
-              <Button variant="outlined" onClick={handleAuth}>
+              <Button
+                variant="outlined"
+                onClick={handleAuth}
+                className={classes.singinbutton}
+              >
                 <strong>{user ? "Sing Out" : "Sing In"}</strong>
               </Button>
             </Link>
